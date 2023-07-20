@@ -7,7 +7,7 @@ Breadit is a Fullstack Reddit clone built with Next.js 13 and TypeScript
 - Infinite scrolling for dynamically loading posts
 - Highly functional post editor
 - Image uploads & link previews
-- Comments and Replies
+- Comments and Nested Replies
 - Search bar
 - Change username
 - Responsive UI built with TailwindCSS
