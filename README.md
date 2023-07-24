@@ -25,3 +25,12 @@ Lets check it out in action (recommend open in Chrome) :point_right: [Breadit](h
 - TailwindCSS
 - Icons from Lucide
 - UI components from [shadcn/ui](https://ui.shadcn.com)
+
+### Preview
+| **HomePage** |
+|:---:|
+| <img src="./preview/HomePage.png" width="750" height="auto"> 
+|**Community** |
+| <img src="./preview/Community.png" width="750" height="auto"> | 
+| **Post** |
+| <img src="./preview/Post.png" width="750" height="auto"> |
