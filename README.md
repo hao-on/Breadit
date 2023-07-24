@@ -5,7 +5,7 @@ Lets check it out in action :point_right: [Breadit](https://ho-breadit.vercel.ap
 
 ### Features
 - General feeds
-- Custom feed for authenticated users
+- Custom feeds for authenticated users
 - Infinite scrolling for dynamically loading posts
 - Highly functional post editor
 - Image uploads & link previews
@@ -25,5 +25,3 @@ Lets check it out in action :point_right: [Breadit](https://ho-breadit.vercel.ap
 - TailwindCSS
 - Icons from Lucide
 - UI components from [shadcn/ui](https://ui.shadcn.com)
-
-### Preview
