@@ -30,7 +30,7 @@ Lets check it out in action (recommend open in Chrome) :point_right: [Breadit](h
 | **HomePage** |
 |:---:|
 | <img src="./preview/HomePage.png" width="750" height="auto"> 
-|**Community** |
+|**Community Page** |
 | <img src="./preview/Community.png" width="750" height="auto"> | 
-| **Post** |
+| **Post Page with Comments** |
 | <img src="./preview/Post.png" width="750" height="auto"> |
