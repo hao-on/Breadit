@@ -1,9 +1,11 @@
 # Breadit
 Breadit is a Fullstack Reddit clone built with Next.js 13 and TypeScript
 
+Lets check it out in action (recommend open in Chrome) :point_right: [Breadit](https://ho-breadit.vercel.app/)
+
 ### Features
 - General feeds
-- Custom feed for authenticated users
+- Custom feeds for authenticated users
 - Infinite scrolling for dynamically loading posts
 - Highly functional post editor
 - Image uploads & link previews
@@ -23,5 +25,3 @@ Breadit is a Fullstack Reddit clone built with Next.js 13 and TypeScript
 - TailwindCSS
 - Icons from Lucide
 - UI components from [shadcn/ui](https://ui.shadcn.com)
-
-### Preview
