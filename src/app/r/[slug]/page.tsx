@@ -1,7 +1,9 @@
+import MiniCreatePost from '@/components/MiniCreatePost'
 import { getAuthSession } from '@/lib/auth'
 import { INFINITE_SCROLL_PAGINATION_RESULTS } from '@/config'
 import { db } from '@/lib/db'
 import { notFound } from 'next/navigation'
+import PostFeed from '@/components/PostFeed'
 
 interface PageProps {
   params: {
@@ -24,7 +26,7 @@ const page = async ({params} : PageProps) => {
             subreddit: true,
             },
             orderBy: {
-            createdAt: 'desc'
+                createdAt: 'desc'
             },
             take: INFINITE_SCROLL_PAGINATION_RESULTS,
         },
@@ -38,6 +40,8 @@ const page = async ({params} : PageProps) => {
             <h1 className='font-bold text-3xl md:text-4xl h-14'>
                 r/{subreddit.name}
             </h1>
+            <MiniCreatePost session={session} />
+            <PostFeed initialPosts={subreddit.posts} subredditName={subreddit.name} />
         </>
     )
 }
