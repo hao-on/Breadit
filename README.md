@@ -10,6 +10,7 @@ Lets check it out in action (recommend open in Chrome) :point_right: [Breadit](h
 - Highly functional post editor
 - Image uploads & link previews
 - Comments and Nested Replies
+- Upvote and Downvote for Post, Comments, and Replies
 - Search bar
 - Change username
 - Responsive UI built with TailwindCSS
